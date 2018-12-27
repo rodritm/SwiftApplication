@@ -8,5 +8,14 @@
 
 import Foundation
 
-print("Hello, World!")
+let myConstant: String = "Hola mundo"
+print("Enter the phone number here:")
+//Wait here for the phone number
+let number = readLine() ?? "76522957"
+print(number);
+print("Enter the message")
+//Wait her for the message
+let message = readLine() ?? "Este es un mensaje de texto"
+print(message);
+
 
